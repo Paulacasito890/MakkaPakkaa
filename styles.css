@@ -1,0 +1,22 @@
+body {
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: black; /* Cambiar el color de fondo a negro */
+}
+
+.contenedor {
+    text-align: center;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    cursor: pointer;
+}
+img:hover {
+    filter: brightness(1.2); /* Ajusta el valor para aumentar o disminuir el brillo */
+    transition: filter 0.3s ease; /* Agrega una transición suave */
+}
